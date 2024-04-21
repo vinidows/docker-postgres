@@ -2,7 +2,7 @@
 Comando para criação de um container com banco de dados postgres com o uso do docker
 
 
-docker container run --name Desafio01 -d -p 5434:5434 -e POSTGRES_DB=curso_docker -e POSTGRES_USER=docker_usr -e POSTGRES_PASSWORD=docker_pwd postgres
+docker container run --name Desafio01 -d -p 5432:5432 -e POSTGRES_DB=curso_docker -e POSTGRES_USER=docker_usr -e POSTGRES_PASSWORD=docker_pwd postgres
 
 docker container run <-- é usado para criação de um container em cima de uma imagem
 -- name NOME <-- é usado para escolher o nome do container o nome dele ser colocado logo em seguida
